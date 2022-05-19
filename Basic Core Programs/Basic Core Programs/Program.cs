@@ -5,6 +5,7 @@ Console.WriteLine("Enter 3 to run power of two program");
 Console.WriteLine("Enter 4 to run harmonic Value");
 Console.WriteLine("Enter 5 to run prime Factors");
 Console.WriteLine("Enter 6 to run Quotient and Remainder");
+Console.WriteLine("Enter 7 to run swap numbers");
 int value = Convert.ToInt32(Console.ReadLine());
 
 
@@ -33,6 +34,10 @@ switch (value)
     case 6:
         Basic_Core_Programs.quotientAndRemainder run6 = new Basic_Core_Programs.quotientAndRemainder();
         run6.findQuotientAndRemainder();
+        break;
+    case 7:
+        Basic_Core_Programs.swapNumber run7 = new Basic_Core_Programs.swapNumber();
+        run7.doSwap();
         break;
 }
 
