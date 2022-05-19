@@ -2,6 +2,7 @@
 Console.WriteLine("Enter 1 to run flip Coin");
 Console.WriteLine("Enter 2 to run leap Year");
 Console.WriteLine("Enter 3 to run power of two program");
+Console.WriteLine("Enter 4 to run harmonic Value");
 int value = Convert.ToInt32(Console.ReadLine());
 
 
@@ -18,6 +19,10 @@ switch (value)
     case 3:
         Basic_Core_Programs.powerOf2 run3 = new Basic_Core_Programs.powerOf2();
         run3.findPowerOf2();
+        break;
+    case 4:
+        Basic_Core_Programs.harmonicValue run4 = new Basic_Core_Programs.harmonicValue();
+        run4.checkHarmonicValue();
         break;
 }
 

@@ -11,7 +11,7 @@ namespace Basic_Core_Programs
         public void findPowerOf2()
         {
             int initialValue = 2;
-            Console.WriteLine("Enter values from 0 to 30");
+            Console.WriteLine("Enter values from 1 to 30");
             int power = Convert.ToInt32(Console.ReadLine());
             for (int i = 1; i <= power; i++)
             {
