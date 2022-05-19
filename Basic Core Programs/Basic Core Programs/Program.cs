@@ -8,6 +8,7 @@ Console.WriteLine("Enter 6 to run Quotient and Remainder");
 Console.WriteLine("Enter 7 to run swap numbers");
 Console.WriteLine("Enter 8 to run odd or Even Number");
 Console.WriteLine("Enter 9 to run find Vowel And Consonant");
+Console.WriteLine("Enter 10 to run find Large Number");
 int value = Convert.ToInt32(Console.ReadLine());
 
 
@@ -48,6 +49,10 @@ switch (value)
     case 9:
         Basic_Core_Programs.vowelAndConsonant run9 = new Basic_Core_Programs.vowelAndConsonant();
         run9.findVowelAndConsonant();
+        break;
+    case 10:
+        Basic_Core_Programs.findLargeNumber run10 = new Basic_Core_Programs.findLargeNumber();
+        run10.largeNumber();
         break;
 }
 
