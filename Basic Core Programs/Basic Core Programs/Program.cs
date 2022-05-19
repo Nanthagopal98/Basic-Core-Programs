@@ -7,6 +7,7 @@ Console.WriteLine("Enter 5 to run prime Factors");
 Console.WriteLine("Enter 6 to run Quotient and Remainder");
 Console.WriteLine("Enter 7 to run swap numbers");
 Console.WriteLine("Enter 8 to run odd or Even Number");
+Console.WriteLine("Enter 9 to run find Vowel And Consonant");
 int value = Convert.ToInt32(Console.ReadLine());
 
 
@@ -43,6 +44,10 @@ switch (value)
     case 8:
         Basic_Core_Programs.oddOrEven run8 = new Basic_Core_Programs.oddOrEven();
         run8.oddOrEvenNumber();
+        break;
+    case 9:
+        Basic_Core_Programs.vowelAndConsonant run9 = new Basic_Core_Programs.vowelAndConsonant();
+        run9.findVowelAndConsonant();
         break;
 }
 
