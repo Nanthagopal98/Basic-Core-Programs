@@ -4,6 +4,7 @@ Console.WriteLine("Enter 2 to run leap Year");
 Console.WriteLine("Enter 3 to run power of two program");
 Console.WriteLine("Enter 4 to run harmonic Value");
 Console.WriteLine("Enter 5 to run prime Factors");
+Console.WriteLine("Enter 6 to run Quotient and Remainder");
 int value = Convert.ToInt32(Console.ReadLine());
 
 
@@ -28,6 +29,10 @@ switch (value)
     case 5:
         Basic_Core_Programs.primeFactors run5 = new Basic_Core_Programs.primeFactors();
         run5.findPrimeFactors();
+        break;
+    case 6:
+        Basic_Core_Programs.quotientAndRemainder run6 = new Basic_Core_Programs.quotientAndRemainder();
+        run6.findQuotientAndRemainder();
         break;
 }
 
